@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenges</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <!-- Capitalize challenge start block -->
+            <div class="capitalize flex-title">
+                <h3>Capitalize Challenges</h3>
+                <ul class="flex-solution">
+                    <li class="usingChar" > using charAt(): <span id="usingChar"></span></li>
+                    <li class="usingString" > using String[index]: <span id="usingString"></span></li>
+                    <li class="usingLiteralSlice" > using template literal and slice: <span id="usingLiteralSlice"></span></li>
+                </ul>                
+            </div>            
+            <!-- Capitalize challenge end block -->
+        </div>
+        
+        <div class="flex-item">
+            <!-- Number challenge start block -->
+            <div class="number flex-title">
+                <h3>Number Challenge</h3>
+                <ul class="flex-solution">
+                    <li class="sumDiv">
+                        <h4>Sum of x and y</h4>
+                        <p class="arithmaticSum"> Sum : <span id="arithmaticSum"></span></p>
+                        <p class="literalExp">Literal Expression : <span id="literalExp"></span></p>
+                    </li>
+                    <li class="diffDiv">
+                        <h4>Difference of x and y</h4>
+                        <p class="arithmaticDiff"> Difference : <span id="arithmaticdiff"></span></p>
+                        <p class="literalExpDiff">Literal Expression Difference : <span id="literalExpDiff"></span></p>
+                    </li>
+                    <li class="prodDiv">
+                        <h4>Product of x and y</h4>
+                        <p class="arithmaticProd"> Product : <span id="arithmaticProd"></span></p>
+                        <p class="literalExpProd">Literal Expression Product : <span id="literalExpProd"></span></p>
+                    </li>
+                    <li class="quotientDiv">
+                        <h4>Quotient of x and y</h4>
+                        <p class="arithmaticQuot"> Quotient : <span id="arithmaticQuot"></span></p>
+                        <p class="literalExpQuot">Literal Expression Quotient : <span id="literalExpQuot"></span></p>
+                    </li>
+                    <li class="remainderDiv">
+                        <h4>Remainder of x and y</h4>
+                        <p class="arithmaticRemainder"> Remainder : <span id="arithmaticRemainder"></span></p>
+                        <p class="literalExpRemainder">Literal Expression Remainder : <span id="literalExpRemainder"></span></p>
+                    </li>
+                </ul>                
+            </div>    
+            <!-- Number challenge end block -->   
+        </div>
+
+        <div class="flex-item">
+            <!-- Array challenge start block -->
+            <div class="array flex-title">
+                <h3>Array Challenge</h3>
+                <ul class="flex-solution">
+                    <li>convert the array: <span id="newArr"></span></li>
+                    <li>combine two array and omit the repetition : <span id="combineOmit"></span></li>
+                    <li>Using spread operator with splice : <span id="spreadSplice"></span></li>
+                </ul>                
+            </div>      
+            <!-- Array challenge end block -->   
+        </div>
+        
+        <div class="flex-item">
+            <!--Object Challenge start block-->
+            <div class="object flex-title">
+                <h3>Object Challenge</h3>
+                <ul class="flex-solution">
+                    <li>Read status for first object : <span id="obj1"></span></li>
+                    <li>Read status for Second object : <span id="obj2"></span></li>
+                    <li>Read status for Third object : <span id="obj3"></span></li>
+                    <li>Destruct the title and rename (title:firstname) : <span id="rename"></span></li>
+                    <li>Turn the library object into a JSON string : <span id="jsonStr"></span></li>
+                </ul>                
+            </div>
+            <!--Object Challange end block-->
+        </div>
+
+        <div class="flex-item">
+            <!--Function Challenge start block-->
+            <div class="function flex-title">
+                <h3>Function Challenge</h3>
+                <ul class="flex-solution">
+                    <li>Create a function called getCelsius() that takes a temperature in Fahrenheit as an argument and returns the temperature in celsius : <br> 
+                        <span id="getCelsius"></span>  
+                    </li>                 
+                    <li>Min Max value using arrow function : <span id="minMaxVal"></span></li>
+                    <li>Create an IIFE that takes in the length and width of a rectangle outputs it to the console in a message as soon as the page loads. <br>
+                        <span id="areaOfRect"></span>
+                    </li>
+                </ul>                
+            </div>
+            <!--Function Challange end block-->
+        </div>
+        <div class="flex-item">
+            <!--Calculator Challenge start block-->
+            <div class="calculator flex-title">
+                <h3>Calculator Challenge</h3>
+                <ul class="flex-solution">
+                    <li>Using If Else : 
+                        <p><b>Add 5 and 2 : </b><span id="calAdd"></span></p>   
+                        <p><b>Subtract 5 and 2 : </b><span id="calSub"></span></p> 
+                        <p><b>Multiply 5 and 2 : </b><span id="calMult"></span></p> 
+                        <p><b>Divide 5 and 2 : </b><span id="calDiv"></span></p>
+                        <p><b>Error: </b><span id="calError"></span></p> 
+                    </li>                
+                    <li>Using Switch Case : 
+                        <p><b>Add 5 and 2 : </b><span id="calAddSwitch"></span></p>   
+                        <p><b>Subtract 5 and 2 : </b><span id="calSubSwitch"></span></p> 
+                        <p><b>Multiply 5 and 2 : </b><span id="calMultSwitch"></span></p> 
+                        <p><b>Divide 5 and 2 : </b><span id="calDivSwitch"></span></p>
+                        <p><b>Error: </b><span id="calErrorSwitch"></span></p> 
+                    </li>
+                </ul>                
+            </div>
+            <!--Calculator Challange end block-->
+        </div>
+
+     
+
+      
+    </div>
+    
+    <script src="./src/capitalize.js"></script>
+    <script src="./src/numbers.js"></script>
+    <script src="./src/array.js"></script>
+    <script src="./src/object.js"></script>
+    <script src="./src/function.js"></script>
+    <script src="./src/calculator.js"></script>
+</body>
+</html>

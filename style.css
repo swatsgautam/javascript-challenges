@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d9e2e8;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden; 
+}
+.card-container {
+    display: flex; 
+    justify-content: center;
+    align-items: stretch; 
+    gap: 1.5625rem; 
+    flex-wrap: wrap;
+    padding:1rem; 
+    max-width: 100%;
+}
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    background-color: #fff;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-wrap: balance;
+    transition: 0.5s ease all;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.flex-title {
+    font-size: 1.25rem;
+    padding: 1rem;
+    color: #3ca69f;
+}
+.flex-solution {
+    flex-grow: 1; 
+    text-align: left;
+    padding: 0 1rem 1rem;
+    font-size: 0.975rem;
+    line-height: 2;
+}
+.flex-solution li {
+    font-weight: bold;
+    color: black;
+}
+.flex-solution li span {
+    font-weight: normal;
+    color: darkolivegreen;
+}
